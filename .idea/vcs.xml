@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/app/server/pkg/dep/sources/https---github.com-go--sql--driver-mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/server/pkg/dep/sources/https---github.com-graphql--go-graphql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/server/pkg/dep/sources/https---github.com-graphql--go-handler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/server/pkg/dep/sources/https---github.com-konsorten-go--windows--terminal--sequences" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/server/pkg/dep/sources/https---github.com-motemen-go--loghttp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/server/pkg/dep/sources/https---github.com-motemen-go--nuts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/server/pkg/dep/sources/https---github.com-sirupsen-logrus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/server/pkg/dep/sources/https---go.googlesource.com-sys" vcs="Git" />
+  </component>
+</project>
