@@ -7,15 +7,6 @@ import (
 
 type NullableString sql.NullString
 
-func (s *NullableString) Scan(value interface{}) error {
-	if value != nil {
-		s.String, s.Valid = string(value.([]uint8)), true
-	} else {
-		s.String, s.Valid = "", false
-	}
-	return nil
-}
-
 func (s *NullableString) MarshalJSON() ([]byte, error) {
 	if s.Valid {
 		return json.Marshal(s.String)
@@ -35,8 +26,4 @@ func (s *NullableString) UnmarshalJSON(data []byte) error {
 		s.String, s.Valid = "", false
 	}
 	return nil
-}
-
-func ToJsonNullString(s interface{}) NullableString {
-	return NullableString{String: s.(string), Valid: s == nil}
 }

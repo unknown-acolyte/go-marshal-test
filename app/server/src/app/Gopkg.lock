@@ -2,14 +2,6 @@
 
 
 [[projects]]
-  digest = "1:a3af33fd30536d9c5a7b6ad542390919e57c1125097a194c7b3d9904109a0611"
-  name = "github.com/go-sql-driver/mysql"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "17ef3dd9d98b69acec3e85878995ada9533a9370"
-  version = "v1.5.0"
-
-[[projects]]
   digest = "1:01a3bf7bc37c96547897d253f8437c89cd8e80ea0211ff5f440fbc19f44cd14e"
   name = "github.com/graphql-go/graphql"
   packages = [
@@ -65,7 +57,6 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/go-sql-driver/mysql",
     "github.com/graphql-go/graphql",
     "github.com/graphql-go/handler",
     "github.com/sirupsen/logrus",

@@ -1,21 +1,17 @@
 package main
 
 import (
-	"app/mutations"
 	"app/queries"
 	"github.com/graphql-go/handler"
 	"os"
 
-	//_ "github.com/go-sql-driver/mysql"
 	"github.com/graphql-go/graphql"
 	log "github.com/sirupsen/logrus"
-	//"log"
 	"net/http"
 )
 
 var schema, _ = graphql.NewSchema(graphql.SchemaConfig{
-	Query:    queries.RootQuery,
-	Mutation: mutations.RootMutation,
+	Query: queries.RootQuery,
 })
 
 func init() {
