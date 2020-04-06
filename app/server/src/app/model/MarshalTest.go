@@ -1,9 +1,9 @@
 package model
 
 import (
-	"app/types"
+	"github.com/guregu/null"
 )
 
 type MarshalTest struct {
-	StringValue types.NullableString
+	StringValue null.String
 }
